@@ -1,36 +1,69 @@
-# 🛒 EcommerceOracle
+# 🛒 ecommerceOracle
 
-**E-Commerce Analytics MCP Server**
+**Consumer MCP Server** — 8 tools | Part of [ToolOracle](https://tooloracle.io)
 
-8 MCP tools | Part of [ToolOracle](https://tooloracle.io) | Live at `tooloracle.io/ecommerce/mcp/`
+![Tools](https://img.shields.io/badge/MCP_Tools-8-10B898?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Live-00C853?style=flat-square)
+![Tier](https://img.shields.io/badge/Tier-Free-2196F3?style=flat-square)
 
 ## Quick Connect
 
 ```bash
+# Claude Desktop / Cursor / Windsurf
 npx -y mcp-remote https://tooloracle.io/ecommerce/mcp/
 ```
 
-## Tools
+```json
+// claude_desktop_config.json
+{
+  "mcpServers": {
+    "ecommerceoracle": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://tooloracle.io/ecommerce/mcp/"]
+    }
+  }
+}
+```
 
-product_search, barcode, shopify_products, price_comparison, category_trends, marketplace_monitor, product_detail, health_check
+## Tools (8)
+
+| Tool | Description |
+|------|-------------|
+| `product_search` | Search products by name across Algolia, UPCItemDB, and Open Food Facts. Returns  |
+| `barcode_lookup` | Look up product by EAN/UPC barcode. Returns full product details, prices from mu |
+| `shopify_products` | Fetch products from any Shopify-powered store via their public /products.json en |
+| `price_comparison` | Compare product prices across multiple sources. Provides merchant links for Idea |
+| `category_trends` | Trending products and news in a specific category. |
+| `marketplace_monitor` | Monitor marketplace presence and pricing news for your brand vs competitor. |
+| `product_detail` | Extract structured product data (price, rating, images) from any product page UR |
+| `health_check` | EcommerceOracle server status. |
 
 ## Pricing
 
-| Tier | Price | Units/month |
-|------|-------|-------------|
-| Free | $0 | 50 |
-| Starter | $49 | 500 |
-| Pro | $149 | 2,000 |
-| Agency | $349 | 6,000 |
+| Tier | Rate Limit | Price |
+|------|-----------|-------|
+| Free | 100 calls/day | €0 |
+| Pro | 10,000 calls/day | €29/month |
+| Enterprise | Unlimited | Custom |
 
-1 unit = $0.01 | x402 USDC micropayments on Base supported
+> Free tier includes all tools with rate limiting. Upgrade for higher limits and priority support.
 
-## About ToolOracle
+## Part of ToolOracle
 
-ToolOracle delivers 24 AI-native intelligence products via MCP. 230+ tools across SEO, crypto, travel, weather, sports, B2B intelligence and more.
+ecommerceOracle is one of **42 specialized MCP servers** in the [ToolOracle](https://tooloracle.io) ecosystem — the largest collection of production-ready MCP tools for AI agents.
 
-[tooloracle.io](https://tooloracle.io)
 
-## License
 
-MIT
+**Related Oracles:**
+- [FeedOracle](https://feedoracle.io) — Evidence-grade compliance data infrastructure
+- [ToolOracle](https://tooloracle.io) — 42 Oracles, 390+ MCP Tools
+
+## Links
+
+- 🌐 Live: `https://tooloracle.io/ecommerce/mcp/`
+- 📚 Docs: [tooloracle.io/docs](https://tooloracle.io/docs)
+- 🏠 Platform: [tooloracle.io](https://tooloracle.io)
+
+---
+
+*Built by [FeedOracle](https://feedoracle.io) — Evidence by Design*
