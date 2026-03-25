@@ -1,0 +1,1 @@
+{"name": "EcommerceOracle", "description": "E-commerce analytics \u2014 8 MCP tools for Shopify, barcode, marketplace monitoring", "category": "business", "tags": ["ecommerce", "shopify", "marketplace", "analytics"], "tools": 8, "transport": "streamable-http", "endpoint": "https://tooloracle.io/ecommerce/mcp/"}
