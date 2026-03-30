@@ -1,1 +1,8 @@
-{"name": "EcommerceOracle", "description": "E-commerce analytics \u2014 8 MCP tools for Shopify, barcode, marketplace monitoring", "category": "business", "tags": ["ecommerce", "shopify", "marketplace", "analytics"], "tools": 8, "transport": "streamable-http", "endpoint": "https://tooloracle.io/ecommerce/mcp/"}
+{
+  "name": "ecommerceOracle",
+  "description": "E-Commerce Analytics \u2014 8 MCP tools for product & price monitoring",
+  "repository": "https://github.com/ToolOracle/ecommerceoracle",
+  "endpoint": "https://tooloracle.io/ecommerce/mcp/",
+  "tools": 8,
+  "license": "MIT"
+}
