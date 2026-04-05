@@ -1,0 +1,5 @@
+name: EcommerceOracle
+description: E-Commerce analytics — 10 tools
+endpoint: https://tooloracle.io/ecommerce/mcp/
+transport: streamable-http
+license: MIT
